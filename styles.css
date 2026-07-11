@@ -1,0 +1,114 @@
+body {
+    background-color: #080029;
+}
+/*div {
+    border-width: 10;
+    border-color: #080029;
+    border-style: solid;
+    border-radius: 20px;
+    /*background-image: url('SportsCars.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;*/
+/*}*/
+img {
+    width: 500px;
+    object-fit: cover;
+}
+/*************************************************/
+.zone-1 {
+    width: 100%;
+    height: 100%;
+}
+.zone-2 {
+    background: #00ff90;
+    width: 30%;
+    height: 100%;
+}
+.zone-3 {
+    background: #808080;
+    width: 30%;
+    height: 100%;
+}
+.zone-4 {
+    background: #ff0000;
+    width: 40%;
+    height: 100%;
+}
+/*
+.zone-5 {
+    background: #ff6a00;
+    width: 100%;
+    height: 30%;
+}
+
+
+.zone-6 {
+    background: #ffd800;
+    width: 100%;
+    height: 100%;
+}
+.zone-7 {
+    background: #0026ff;
+    width: 100%;
+    height: 100%;
+}
+.zone-8 {
+    background: #0094ff;
+    width: 100%;
+    height: 100%;
+}
+/*************************************************/
+.bl-1 {
+    background: #5094ff;
+    width: 100%;
+    height: 100%;
+}
+.bl-2 {
+    background: #9094ff;
+    width: 40%;
+    height: 100%;
+}
+.bl-3 {
+    background: #2094ff;
+    width: 30%;
+    height: 100%;
+}
+.bl-4 {
+    background: #5094ff;
+    width: 30%;
+    height: 100%;
+}
+.bl-5 {
+    background: #0594ff;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.bl-6 {
+    background: #0094ff;
+    width: 100%;
+    height: 100%;
+}
+.bl-7 {
+    background: #0094ff;
+    width: 100%;
+    height: 100%;
+}
+.bl-8 {
+    background: #0094ff;
+    width: 100%;
+    height: 100%;
+}
+.bl-9 {
+    background: #0094ff;
+    width: 100%;
+    height: 100%;
+}
+.bl-10 {
+    background: #0094ff;
+    width: 100%;
+    height: 100%;
+}
