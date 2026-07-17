@@ -1,32 +1,35 @@
-body {
-    background-color: #080029;
-}
-header {
-    border-width: 10;
-    border-color: #d500ff;
-    border-style: solid;
-    border-radius: 20px;
-}
-    /*background-image: url('SportsCars.png');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;*/
+body { background-color: #080029; }
+header { border-width: 10; border-color: #d500ff; border-style: solid; border-radius: 20px;   margin-bottom: 50px; }
+img { width: 100%; height: 100%; object-fit: cover; border-radius: 20px; }
+.container { display: flex; height: 610px}
+.headers { color: #ac4ab0; }
+.unit { width: 100%; height: 100px; background-color: #080029; margin: 20px; }
+.borders { border: 3px solid #ac4ab0; border-radius: 20px; margin-bottom: 30px; padding: 1px}
+.footer-img { width: 10%; height: 10%; margin: 10px auto 10px; display: block; }
+.caption { color: #762579; text-overflow: ellipsis; }
 
-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-.container {
-    display: flex;
-}
-
-.unit {
-    width: 100%;
+#scroll-top-button {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    background-color: #ac4ab0;
+    color: #080029;
+    font-size: 30px;
+    width: 100px;
     height: 100px;
-    background-color: aqua;
-    margin: 20px;
-
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
 }
+
+#scroll-top-button:hover {
+    background-color: white;
+    box-shadow: 0 5px 20px green;
+}
+
+
+
