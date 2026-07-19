@@ -1,35 +1,17 @@
-body { background-color: #080029; }
-header { border-width: 10; border-color: #d500ff; border-style: solid; border-radius: 20px;   margin-bottom: 50px; }
-img { width: 100%; height: 100%; object-fit: cover; border-radius: 20px; }
+body { background-color: #080029; font-size: 1em; }
+header { border-width: 0.5em; border-color: #d500ff; border-style: solid; border-radius: 1.2em; margin-bottom: 3.1em; }
+img { width: 25em; height: 10em; object-fit: cover; border-radius: 1.2em; }
+
 .container { display: flex; height: 610px}
 .headers { color: #ac4ab0; }
-.unit { width: 100%; height: 100px; background-color: #080029; margin: 20px; }
-.borders { border: 3px solid #ac4ab0; border-radius: 20px; margin-bottom: 30px; padding: 1px}
-.footer-img { width: 10%; height: 10%; margin: 10px auto 10px; display: block; }
+.unit { width: 200em; height: 20em; background-color: #080029; margin: 1.2em; }
+.borders { border: 0.2em solid #ac4ab0; border-radius: 1.2em; margin-bottom: 1.9em; padding: 1px }
+.footer-img { width: 10%; height: 10%; margin: 0.6em auto 0.6em; display: block; }
 .caption { color: #762579; text-overflow: ellipsis; }
 
-#scroll-top-button {
-    display: none;
-    position: fixed;
-    z-index: 99;
-    margin: 0 auto;
-    border: none;
-    outline: none;
-    background-color: #ac4ab0;
-    color: #080029;
-    font-size: 30px;
-    width: 100px;
-    height: 100px;
-    cursor: pointer;
-    padding: 5px;
-    border-radius: 50%;
-    transition: all 0.5s ease;
-}
-
-#scroll-top-button:hover {
-    background-color: white;
-    box-shadow: 0 5px 20px green;
-}
-
-
+#header-img { height: 50em; width: 100%; height: 100%; }
+#scroll-top-button { display: flex; z-index: 99; margin: 0 auto; border: none; outline: none; background-color: #ac4ab0;
+color: #080029; font-size: 1.9em; width: 3em; height: 3em; cursor: pointer; padding-left: 7px; padding-top: 1px;
+border-radius: 50%; transition: all 0.8s ease; }
+#scroll-top-button:hover { background-color: white; box-shadow: 0 5px 20px #ac4ab0; transform: translateY(-10px); }
 
