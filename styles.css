@@ -17,7 +17,7 @@ border-radius: 50%; transition: all 0.8s ease; }
 @media (max-width: 374px)
 {
     body { font-size: 0.1em; }
-    #scroll-top-button { width: 0.5em; height: 0.5em;}
+    /*#scroll-top-button { width: 0.5em; height: 0.5em;}*/
 }
 @media (min-width: 375px) and (max-width: 479px)
 {
