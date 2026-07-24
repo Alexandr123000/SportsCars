@@ -16,7 +16,7 @@ function functionScroll()
 
 var btn = document.getElementById("scroll-top-button");
 
-function topFunction()
+function topFunction() //scrolling the page
 {
 	document.body.scrollTop = 0;
 	document.documentElement.scrollTop = 0;

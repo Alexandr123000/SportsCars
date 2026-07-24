@@ -17,7 +17,6 @@ border-radius: 50%; transition: all 0.8s ease; }
 @media (max-width: 374px)
 {
     body { font-size: 0.1em; }
-    /*#scroll-top-button { width: 0.5em; height: 0.5em;}*/
 }
 @media (min-width: 375px) and (max-width: 479px)
 {
@@ -29,17 +28,17 @@ border-radius: 50%; transition: all 0.8s ease; }
 }
 @media (min-width: 768px) and (max-width: 991px) 
 {
-    body { font-size: 1em; }
+    body { font-size: 0.7em; }
 }
 @media (min-width: 992px) and (max-width: 1199px) 
 {
-    body { font-size: 1.5em; }
+    body { font-size: 1em; }
 }
 @media (min-width: 1200px) and (max-width: 1439px) 
 {
-    body { font-size: 2em; }
+    body { font-size: 1.5em; }
 }
 @media (min-width: 1440px)
 {
-    body { font-size: 3em; }
+    body { font-size: 2em; }
 }
